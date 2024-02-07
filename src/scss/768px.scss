@@ -1,0 +1,298 @@
+@media (min-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+    .header {
+        &__left {
+            gap: 20px;
+        }
+        .menu {
+            margin: 24px 0 24px 24px;
+        }
+        .divider--768 {
+            margin: 28px 0 28px 0;
+        }
+        .group {
+            margin: 18.59px 0 18.59px 0;
+        }
+        &--768 {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        &__center {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 16px;
+        }
+        .call--768, .chat--768, .profile--768 {
+            margin: 24px 0 24px 0;
+        }
+        .profile--768 {
+        margin-right: 20px;
+        }
+        .checkstatus {
+        margin: 24px 24px 24px 0;
+        }
+        &__right {
+        gap: 16px;
+        align-items: baseline;
+        }
+        .repair {
+        margin-left: 0;
+        }
+    }
+    .aside {
+        min-width: 320px;
+        width: 320px;
+        &__group {
+        margin: 18.73px 0 0 0;
+        }
+        &__main {
+            margin-top: 35px;
+        }
+        &__footer {
+            padding-top: 268px;
+        }
+        &__call {
+            min-width: 320px;
+            width: 320px
+        }
+        &__chat {
+            min-width: 320px;
+            width: 320px
+        }
+    }
+    .aside__call, .aside__chat {
+      min-width: 320px;
+      width: 320px;
+    }
+    .part1 {
+        &__nav {
+            margin: 24px 24px 0 24px;
+        }
+        &__description {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text__full {
+            display: none;
+        }
+        &__text {
+            width: 312px;
+            margin-right: 24px;
+            margin-bottom: 10px;
+        }
+        .part1__text--768 {
+            display: block;
+        }
+        &__img {
+            border-radius: 10px;
+            margin-right: 25px;
+            margin-bottom: 14.34px;
+            width: 360px;
+            height: 259.655px;
+        }
+    }
+    .part2 {
+        &__header {
+        margin-bottom: 24px;
+        padding-top: 25px;
+        }
+        .swiper {
+          height: 164px;
+          overflow: hidden;
+        }
+        &__swiper {
+            height: 164px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+            transition: all 1s ease;
+        }
+        .swiper2--hidden {
+            height: 250px;
+            transition: all 1s ease;
+        }
+        .slider-1 .part2__swiper-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            padding-left: 24px;
+            row-gap: 12px;
+            column-gap: 4px;
+        }
+        &__swiper-slide {
+            min-width: 224px;
+            max-width: 224px;
+            height: 72px;
+            margin: 0;
+        }
+        &__button {
+            display: flex;
+            align-self: center;
+            padding-left: 16px;
+            gap: 8px;
+            margin-top: 24px;
+            margin-bottom: 32px;
+            margin-left: 10px;
+        }
+        &__button__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            font-family: "TT Lakes Regular";
+        }
+        .expand-close {
+          transform: rotate(180deg);
+          transition-duration: 0.3s;
+        }
+      }
+    .part3 {
+        &__header {
+            margin-bottom: 24px;
+            padding-top: 25px;
+        }
+        .swiper {
+          padding: 0;
+          height: 164px;
+        }
+        &__swiper {
+            height: 164px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+            transition: all 1s ease;
+        }
+        .swiper3--hidden {
+            height: 340px;
+            transition: all 1s ease;
+        }
+        &__swiper-wrapper {
+            padding-left: 24px;
+            flex-wrap: wrap;
+            gap: 16px 4px;
+            height: 160px;
+        }
+        &__swiper-slide {
+            min-width: 224px;
+            max-width: 224px;
+            height: 160px;
+        }
+        &__button {
+            display: flex;
+            align-self: center;
+            padding-left: 16px;
+            gap: 8px;
+            margin-top: 24px;
+            margin-bottom: 32px;
+            margin-left: 10px;
+        }
+        &__button__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            font-family: "TT Lakes Regular";
+        }
+        .expand-close {
+          transform: rotate(180deg);
+          transition-duration: 0.3s;
+        }
+    }
+    .part4 {
+        &__header {
+                margin-top: 32px;
+            }
+        &__price__list {
+            display: flex;
+            margin: 31px 0 0 40px;
+            font-family: "TT Lakes Regular";
+            color: $link-gray;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 16px; /* 114.286% */
+            opacity: 0.7218;
+            margin-bottom: 4px;
+        }
+        .list__services {
+            margin-right: 246px;
+        }
+        .list__price {
+            margin-right: 61px;
+        }
+        &__swiper {
+            height: 324px;
+            margin: 16px auto 24px auto;
+        }
+        &__swiper-wrapper {
+            flex-direction: column;
+            margin-left: 10px;
+        }
+        &__swiper-slide {
+            width: 720px;
+            height: 64px;
+        }
+        &__swiper-card {
+            flex-direction: row;
+            height: 64px;
+            align-items: center;
+            gap: 22px;
+        }
+        .swiper-card__sect1 {
+          display: flex;
+          gap: 12px;
+        }
+        .grey {
+            display: none;
+        }
+        .swiper-card--bottom {
+            align-items: center;
+            gap: 20px;
+        }
+        .services {
+            width: 360px;
+        }
+        .price {
+            width: 74px;
+        }
+        .swiper-card--left {
+            width: 84px;
+        }
+        &__text {
+            width: 430px;
+            height: 60px;
+            margin-left: 27px;
+        }
+        &__offer {
+            margin-left: 27px;
+            margin-top: 16px;
+            width: 292px;
+        }
+    }
+    .footer {
+        height: 105px;
+        &__text {
+            margin: 35px 24px 24px 24px;
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+            align-items: baseline;
+        }
+        &__text1 {
+            margin-top: 0;
+            text-align: left;
+        }
+        &__text3 {
+            margin-bottom: 0;
+            text-align: right;
+            width: 213px;
+        }
+    }
+}
+

@@ -1,0 +1,52 @@
+.header {
+    max-height: 88px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $white;
+    border-bottom: solid 1px $light-turquoise;
+    &__left {
+        display: flex;
+        justify-content: flex-start;
+        gap: 16.73px;
+    }
+    .burger {
+        background: $white;
+    }
+    .menu {
+        margin: 24px 0 24px 16px;
+    }
+    .divider--768 {
+        @media not (min-width: 768px) {
+        display: none;
+        }
+    }
+    .group {
+        margin: 18.59px 0 18.59px 0;
+        width: 96.548px;
+        height: 50.815px;
+    }
+    &__center {
+        display: none;
+    }
+    &__right {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .divider {
+        margin: 28px 0 28px 0;
+        width: 2px;
+        height: 32px;
+    }
+    .repair {
+        margin: 24px 0 24px 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .checkstatus {
+        margin: 24px 16px 24px 16px;
+        width: 40px;
+        height: 40px;
+    }
+
+}

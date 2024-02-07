@@ -1,0 +1,101 @@
+.part1 {
+    min-width: 320px;
+    background-color: $light-gray;
+    .title {
+        background: url(/src/img/highlight.svg) no-repeat left;
+        margin: 0 0;
+        padding: 16px 24px;
+        color: $black;
+        font-family: "TT Lakes Bold";
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 40px; /* 142.857% */
+        letter-spacing: -0.6px;
+    }
+    &__nav {
+        margin: 0 16px 0 16px;
+        .nav__list {
+            display: flex;
+            overflow-x: scroll;
+        }
+        .nav__list::-webkit-scrollbar {
+            width: 0;
+        }
+        .nav__point {
+            padding: 8px 16.67px 8px 16.67px;
+            border: 2px solid transparent;
+            white-space: nowrap;
+        }
+        .nav__point:hover,
+        .nav__point:focus {
+            background-color: $white;
+            border-radius: 6px;
+            border: 2px solid $light-turquoise;
+        }
+        .nav__link {
+            color: $link-gray;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+        }
+    }
+    &__description {
+        margin-top: 15px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 16px 16px 16px;
+        font-family: "TT Lakes Regular";
+        gap: 16px;
+        width: 288px;
+        p {
+            color: $black;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.2px;
+            margin: 0;
+        }
+        .text__full {
+            color:$black;
+        }
+        .part1__text--768 {
+            display: none;
+        }
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        gap: 8px;
+        margin-bottom: 16px;
+        &__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: -0.2px;
+            font-family: "TT Lakes Regular";
+        }
+    }
+    &__img {
+        width: 320px;
+        height: 230.805px;
+    }
+    .expand-close {
+        transform: rotate(180deg);
+        transition-duration: 0.3s;
+    }
+    &__title--right {
+        display: none;
+    }
+    &__text--1440 {
+        @media not (min-width: 1140px){
+        display: none;
+        }
+    }
+    .text__full--hidden {
+        display: none;
+    }
+}

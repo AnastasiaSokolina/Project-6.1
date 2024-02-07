@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "TT Lakes Bold";
+    src: local("TT Lakes Bold"),
+    url("/src/fonts/TTLakes-Bold.woff") format("woff2"), url("/src/fonts/TTLakes-Bold.eot") format("embedded-opentype"), url("/src/fonts/TTLakes-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "TT Lakes Regular";
+    src: local("TT Lakes Regular"),
+    url("/src/fonts/TTLakes-Regular.woff") format("woff"), url("/src/fonts/TTLakes-Regular.eot") format("embedded-opentype"), url("/src/fonts/TTLakes-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: local("TT Lakes Medium"),
+    url("/src/fonts/TTLakes-Medium.woff") format("woff2"), url("/src/fonts/TTLakes-Medium.eot") format("embedded-opentype"), url("/src/fonts/TTLakes-Medium.ttf") format("ttf");
+}
+
+$white: #fff;
+$light-gray: #f8f8f8;
+$link-gray: #7E7E82;
+$turquoise: #41f6d7;
+$light-turquoise: #D9FFF5;
+$gray: #eaeaea;
+$dark-gray: #b5b6bc;
+$pink: #ff3e79;
+$black: #1b1c21;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TT Lakes Regular", sans-serif;
+    font-style: normal;
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+body {
+    background-color: $light-gray;
+    min-width: 320px;
+}
+p {
+  color: #1B1C21;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
